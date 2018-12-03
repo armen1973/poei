@@ -62,14 +62,6 @@
         ]
     },
     "extra": {
-        "merge-plugin": {
-            "include": [
-                "modules/custom/test/composer.json"
-            ],
-            "recurse": true,
-            "replace": false,
-            "merge-extra": false
-        },
         "patchLevel": {
             "drupal/core": "-p2"
         },
