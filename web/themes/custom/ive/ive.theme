@@ -123,3 +123,13 @@ function ive_form_alter(&$form, FormStateInterface $form_state, $form_id) {
     $form[$key]['submit']['#attributes']->addClass('search-form__submit');
   }
 }
+
+function ive_theme_suggestions_page_alter(array &$suggestions, array $variables)
+{
+    $node = \Drupal::routeMatch()->getParameter('node');
+    //ksm($node);
+    if(is_object($node)) {
+        $suggestions[] = 'page__nodetype__' . $node->bundle();
+    }
+    //ksm($suggestions);
+}
