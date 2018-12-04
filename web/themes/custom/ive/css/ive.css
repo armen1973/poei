@@ -1,4 +1,99 @@
+body {
+	background: url('/dev/web/sites/default/files/2018-12/body.jpg');
+}
+
+#page {
+	background: rgba(255,255,255,0.7);
+}
+
+#main-wrapper {
+	margin-top:20px;
+	background: rgba(255,255,255,0.7);
+	-moz-box-shadow: 0px 10px 200px 0px #ffffff;
+-webkit-box-shadow: 0px 10px 200px 0px #ffffff;
+-o-box-shadow: 0px 10px 200px 0px #ffffff;
+box-shadow: 0px 10px 200px 0px #ffffff;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#ffffff, Direction=180, Strength=200);
+}
+
 a {
-  color: red;
+  color: orange;
+}
+
+#sidebar-second, #block-ive-bienvenue, #sidebar-first, #block-ive-search, #block-ive-tools {
+	background-color: #fff ;
+	border: 0;
+
+}
+
+#sidebar-second, #sidebar-first {
+	padding-top: 8px;
+-moz-box-shadow: 10px 10px 20px 0px #cfcfcf;
+-webkit-box-shadow: 10px 10px 20px 0px #cfcfcf;
+-o-box-shadow: 10px 10px 20px 0px #cfcfcf;
+box-shadow: 10px 10px 20px 0px #cfcfcf;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=134, Strength=20);
+width: 23%;
+}
+
+#header {
+	background: url('/dev/web/sites/default/files/2018-12/ararat.jpg') 0 -130px no-repeat;
+	background-size: 100%;
+	height: 250px;
+}
+
+.region-primary-menu {
+    clear: both;
+    margin-top: 111px;
+
+}
+
+.site-branding__logo img {
+	width:250px;
+
+}
+
+.main-content .section {
+    padding: 0 20px;
+}
+
+.toto h2 {
+	text-align: center;
+	position:absolute;
+	width: 100%;
+	top: 20px;
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 4px 4px 2px rgba(255, 255, 255, 1);
+}
+
+#page-wrapper-perso {
+	width: 100%;
+}
+
+#page-wrapper-perso .layout-container {
+	width: 100%;
+}
+
+#main-wrapper {
+	width: 100%;
+}
+
+#page-wrapper-perso {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+#page-wrapper-perso #content {
+	width: 100%;
+}
+
+#page-wrapper-perso .layout-two-sidebars .main-content {
+
+	margin-left: 0;
+	margin-right: 0;
+	width: 30%;
+
 }
 

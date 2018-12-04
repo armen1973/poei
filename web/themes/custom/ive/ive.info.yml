@@ -11,13 +11,13 @@
 # 2. Sub-theme ive. This is only recommended if you want to make minor
 # tweaks and understand that ive could break your modifications as it
 # changes.
-name: ive
+name: 'ive'
 type: theme
 base theme: classy
 description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
-package: Core
+package: 'Core'
 version: VERSION
-core: 8.x
+core: '8.x'
 libraries:
   - ive/global-styling
   - ive/ive
@@ -27,15 +27,16 @@ ckeditor_stylesheets:
   - css/components/table.css
   - css/components/text-formatted.css
 regions:
-  header: Header
+  header: 'Header'
+  toto_toto: 'Toto'
   primary_menu: 'Primary menu'
   secondary_menu: 'Secondary menu'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
-  highlighted: Highlighted
+  highlighted: 'Highlighted'
   featured_top: 'Featured top'
-  breadcrumb: Breadcrumb
-  content: Content
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
   featured_bottom_first: 'Featured bottom first'
@@ -46,3 +47,4 @@ regions:
   footer_third: 'Footer third'
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
+
