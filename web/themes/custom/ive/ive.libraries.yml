@@ -4,6 +4,18 @@ ive:
     theme:
       css/ive.css: {}
 
+artcle_perso_teaser:
+  version: VERSION
+  css:
+    layout:
+      css/components/artcle_perso_teaser.css: {}
+
+form_perso:
+  version: VERSION
+  css:
+    layout:
+      css/components/form_perso.css: {}
+
 global-styling:
   version: VERSION
   css:

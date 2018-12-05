@@ -78,6 +78,7 @@
   ]
 %}
 {{ attach_library('classy/node') }}
+{{ attach_library('ive/artcle_perso_teaser') }}
 <article{{ attributes.addClass(classes) }}>
   <header>
     {{ title_prefix }}
@@ -98,7 +99,11 @@
     {% endif %}
   </header>
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
-    {{ content }}
-
+      {{ content.field_tags }}
+      <div class="artcle_perso_teaser">
+          <div>{{ content.field_image }}</div>
+          <div>{{ content.body }}</div>
+      </div>
+      {{ content|without('field_image', 'body' ) }}
   </div>
 </article>
