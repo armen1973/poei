@@ -11,4 +11,3 @@
 .layout--fourcolumn > layout__region--first, .layout--fourcolumn > layout__region--second {
     flex: 0 1 50%;
 }
-}
