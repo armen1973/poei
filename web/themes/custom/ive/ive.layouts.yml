@@ -2,9 +2,9 @@ layout_foursquares:
   label: 'four squares'
   path: layouts/fourcolumn
   template: layout--fourcolumn
-  library: layout_discovery/fourcolumn
+  library: ive/four_squares
   category: 'ive'
-  default_region: first
+  default_region: Top left
   icon: four-squares.png
   regions:
     top_left:

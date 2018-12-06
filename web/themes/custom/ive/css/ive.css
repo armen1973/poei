@@ -97,5 +97,9 @@ width: 23%;
 
 }
 
+.button.search-form__submit:hover, .search-form__submit:hover, .button.search-form__submit:focus, .search-form__submit:focus {
 
+	background: #dedede url(/dev/web/themes/custom/ive/images/loupe.svg) no-repeat center;
+
+}
 
