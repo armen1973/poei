@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+name: ive_mo
+label: 'ive mobile'
+effects:
+  bc73f1c5-1bae-4ece-8612-addd9e452612:
+    uuid: bc73f1c5-1bae-4ece-8612-addd9e452612
+    id: image_desaturate
+    weight: -9
+    data: {  }
+  42a142e5-97a7-47ae-8491-6a62abb24b31:
+    uuid: 42a142e5-97a7-47ae-8491-6a62abb24b31
+    id: image_scale
+    weight: -10
+    data:
+      width: 180
+      height: null
+      upscale: false

@@ -1,8 +1,30 @@
+four_squares:
+  css:
+    layout:
+      layouts/fourcolumn/fourcolumn.css: {}
+
 ive:
   version: VERSION
   css:
     theme:
       css/ive.css: {}
+  js:
+    js/ive.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+artcle_perso_teaser:
+  version: VERSION
+  css:
+    layout:
+      css/components/artcle_perso_teaser.css: {}
+
+form_perso:
+  version: VERSION
+  css:
+    layout:
+      css/components/form_perso.css: {}
 
 global-styling:
   version: VERSION
@@ -91,4 +113,3 @@ maintenance_page:
   dependencies:
     - system/maintenance
     - ive/global-styling
-

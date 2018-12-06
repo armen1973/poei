@@ -83,6 +83,9 @@ function ive_preprocess_node(&$variables) {
   if ($variables['teaser'] || !empty($variables['content']['comments']['comment_form'])) {
     unset($variables['content']['links']['comment']['#links']['comment-add']);
   }
+
+  //ksm($variables['node']->getCreatedTime());
+    $variables['date'] = format_date($variables['node']->getCreatedTime(), 'custom', t('l j S F Y \a\t h:i'));
 }
 
 /**
@@ -93,6 +96,9 @@ function ive_preprocess_block(&$variables) {
   if ($variables['plugin_id'] == 'system_branding_block') {
     $variables['attributes']['class'][] = 'clearfix';
   }
+
+
+  $variables['themepath'] = base_path() .  drupal_get_path('theme', 'ive');
 }
 
 /**

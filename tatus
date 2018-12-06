@@ -1,0 +1,68 @@
+[33mcommit 41e340f629dd784236c5e98f0bda3ca8b1d20adc[m
+Author: armen <armen@mkrtchian.fr>
+Date:   Thu Dec 6 16:55:10 2018 +0100
+
+    Export de la config
+
+[33mcommit c4bc400538e4be7e3b50ac8b809593e2c7f6a54a[m
+Author: armen <armen@mkrtchian.fr>
+Date:   Thu Dec 6 16:50:57 2018 +0100
+
+    Ajout du module Radix Layouts
+
+[33mcommit aee7f1772c697c50c52a2cf56251bea1d6cb8e69[m
+Author: armen <armen@mkrtchian.fr>
+Date:   Wed Dec 5 17:42:44 2018 +0100
+
+    Ajouts de templates et fonctions de preprocess.
+
+[33mcommit d213b57fe19cc7ed5a87a1b7021a284649317ae5[m
+Merge: e60cffe 9b5cd5d
+Author: armen1973 <45489074+armen1973@users.noreply.github.com>
+Date:   Tue Dec 4 17:35:56 2018 +0100
+
+    Merge pull request #1 from armen1973/theming1
+    
+    Theming1
+
+[33mcommit 9b5cd5d003fc4db740cdb140e616d8d703e021ed[m
+Author: armen <armen@mkrtchian.fr>
+Date:   Tue Dec 4 17:30:26 2018 +0100
+
+    Theme ive : Ajout css rt templates
+
+[33mcommit 376da0bf8e3e0aa3d606a71743832cec5721466f[m
+Author: armen <armen@mkrtchian.fr>
+Date:   Tue Dec 4 09:52:14 2018 +0100
+
+    Ajout des fichiers services.yml dans .gitignore
+
+[33mcommit e60cffe7d55727c60d28fd8e59b6a686142a1434[m
+Author: armen <armen@mkrtchian.fr>
+Date:   Mon Dec 3 17:50:19 2018 +0100
+
+    Ajout du theme ive
+
+[33mcommit 6972ba8eae137b322c7b49e174e8f933cb2f1bc5[m
+Author: armen <armen@mkrtchian.fr>
+Date:   Mon Dec 3 15:17:12 2018 +0100
+
+    Ajout du module filter
+
+[33mcommit d4e8430d9f984b496f0ca1efe95b2e2e96f74371[m
+Author: armen <armen@mkrtchian.fr>
+Date:   Mon Dec 3 14:50:34 2018 +0100
+
+    Ajout du module pathauto
+
+[33mcommit 3548ae08effdf43acc769bb6b5f9b0410a4c3400[m
+Author: Dumbledoge <spinetribal@gmail.com>
+Date:   Mon Dec 3 12:12:23 2018 +0100
+
+    Suppresion module test
+
+[33mcommit 06e164f616b4c7177002c80028f641f7b1c41b9f[m
+Author: Dumbledoge <spinetribal@gmail.com>
+Date:   Mon Dec 3 11:36:46 2018 +0100
+
+    initialisatuion

@@ -1,0 +1,8 @@
+.artcle_perso_teaser {
+    display: flex;
+}
+
+.artcle_perso_teaser div {
+    flex-basis: 50%;
+    flex-grow: 0;
+}
