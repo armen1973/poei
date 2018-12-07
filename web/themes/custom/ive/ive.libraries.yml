@@ -1,3 +1,12 @@
+jquery-ui-tabs:
+  css:
+    layout:
+      layouts/jquery-ui-tabs/ui-tabs.css: {}
+  js:
+    layouts/jquery-ui-tabs/jquery-ui-tabs.js: {}
+  dependencies:
+    - core/jquery.ui.tabs
+
 four_squares:
   css:
     layout:
