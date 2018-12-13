@@ -1,0 +1,5 @@
+name: 'Console Tests'
+type: module
+description: 'Colsole Testings.'
+core: 8.x
+package: 'Training'
