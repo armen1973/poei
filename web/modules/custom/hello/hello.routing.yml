@@ -31,3 +31,11 @@ hello.connection-statistics:
     _controller: '\Drupal\hello\Controller\UserstatisticsController::content'
   requirements:
     _access: 'TRUE'
+
+hello.form:
+  path: '/hello-form'
+  defaults:
+    _title: 'hello form'
+    _form: '\Drupal\hello\Form\HelloForm'
+  requirements:
+    _access: 'TRUE'
