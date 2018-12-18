@@ -4,3 +4,11 @@ hello.page:
   description: 'Hello page'
   menu_name: main
   weight: '10'
+
+hello.admin-config:
+  title: 'Hello Admin form'
+  route_name: 'hello.admin-config-form'
+  description: 'Admin config'
+  menu_name: 'admin'
+  parent: 'system.admin_config'
+  weight: '11'

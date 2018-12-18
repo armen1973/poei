@@ -1,0 +1,11 @@
+permission block Sessions:
+  title: 'Permission block Sessions'
+  description: 'Description de Permission block Sessions'
+
+administer hello:
+  title: 'Permission administer hello'
+  description: 'Description de Permission administer hello'
+
+access hello:
+  title: 'Permission access hello'
+  description: 'Description de Permission access hello'

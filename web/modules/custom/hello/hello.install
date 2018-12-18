@@ -4,7 +4,7 @@ use Drupal\Core\Database\Database;
 /*
  * Implements hook_schema().
  */
-function hello_schema () {
+function hello_schema() {
     $schema['hello_user_statistics'] = [
         'description' => 'Stores user connection statistics.',
         'fields' => [
@@ -54,4 +54,10 @@ function hello_update_8001() {
     $schema = Database::getConnection()->schema();
     $schema->addField('hello_user_statistics', 'uid', $field_spac);
 
+}
+
+function hello_uninstall() {
+
+    // Create the styles directory and ensure it's writable.
+    \Drupal::state()->delete('Hello');
 }

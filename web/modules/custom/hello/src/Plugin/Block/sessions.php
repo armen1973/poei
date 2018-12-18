@@ -1,9 +1,11 @@
 <?php
 
 namespace Drupal\hello\Plugin\Block;
+use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Component\Datetime\Time;
+use Drupal\Core\Session\AccountInterface;
 use Drupal\user\UserInterface;
 
 /**
@@ -15,6 +17,14 @@ use Drupal\user\UserInterface;
  */
 class Sessions extends BlockBase
 {
+    /**
+     * @param AccountInterface $account
+     * @return AccessResult
+     */
+    protected function blockAccess(AccountInterface $account)
+    {
+        return AccessResult::allowedIfHasPermission($account, 'permission block Sessions' );
+    }
 
     /**
      * Implements Drupal\Core\Block\Blockbase::build().
@@ -22,6 +32,7 @@ class Sessions extends BlockBase
 
     public function build()
     {
+
         $database = \Drupal::database();
         $session_num = $database->select('sessions',  's')
             ->countQuery()
@@ -38,6 +49,8 @@ class Sessions extends BlockBase
                         'max-age' => '0',
                     ],
             ];
+
+
         return $build;
 
     }

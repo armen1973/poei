@@ -6,6 +6,10 @@ use Drupal\Core\Controller\ControllerBase;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 class HelloController extends ControllerBase {
+    /**
+     * @param string $param
+     * @return array
+     */
     public function content($param = '') {
         $message = $this->t('Vous êtes sur la page Hello. Votre nom d\'utilisateur est %username voici le paramètre dans l’URL %param',
             ['%username' => $this->currentUser()->getAccountName(), '%param' => $param]);

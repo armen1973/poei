@@ -31,3 +31,20 @@ hello.connection-statistics:
     _controller: '\Drupal\hello\Controller\UserstatisticsController::content'
   requirements:
     _access: 'TRUE'
+
+hello.form:
+  path: '/hello-form'
+  defaults:
+    _title: 'hello form'
+    _form: '\Drupal\hello\Form\HelloForm'
+  requirements:
+    _permission: 'access hello'
+
+hello.admin-config-form:
+  path: 'admin/config-form'
+  defaults:
+    _title: 'Admin config Form'
+    _form: '\Drupal\hello\Form\AdminForm'
+  requirements:
+    _permission: 'administer hello'
+
