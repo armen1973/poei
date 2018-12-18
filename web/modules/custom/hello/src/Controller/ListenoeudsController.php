@@ -5,7 +5,13 @@ namespace Drupal\hello\Controller;
 use Drupal\Core\Controller\ControllerBase;
 
 class ListenoeudsController extends ControllerBase {
-
+    /**
+     * @param null $nodetype
+     * @return array
+     * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
+     * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+     * @throws \Drupal\Core\Entity\EntityMalformedException
+     */
     public function listenoeuds($nodetype = NULL) {
 
         $query = $this->entityTypeManager()->getStorage('node')->getQuery();

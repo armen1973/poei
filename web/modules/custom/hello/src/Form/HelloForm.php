@@ -130,6 +130,8 @@ class HelloForm extends FormBase {
 
     public function submitForm(array &$form, FormStateInterface $form_state)
     {
+
+
         $active = $form_state->getValue('active');
         $valeur1 = $form_state->getValue('valeur1');
         $valeur2 = $form_state->getValue('valeur2');
@@ -145,6 +147,8 @@ class HelloForm extends FormBase {
         }
 
         //drupal_set_message('coucou' . $result);
+
+        $create_statesoumission = \Drupal::state()->set('Hello', REQUEST_TIME );
 
         $form_state->setRebuild()->addRebuildInfo('messageresult', $result);
 

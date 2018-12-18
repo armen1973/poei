@@ -65,6 +65,24 @@ function hello_user_delete(UserInterface $account) {
 }
 
 function hello_cron() {
-    drupal_set_message('Hello Cron');
+
+
+    $expires = \Drupal::config('hello.settings')->get('purge_days_number');
+    if($expires != '0') {
+        $nombre_suppression = \Drupal::database()->delete('hello_user_statistics')
+            ->condition('time', REQUEST_TIME - $expires * (24 * 3600), '<')
+            ->execute();
+    }
+        \Drupal::messenger()->addMessage(t('@nombre_suppression  records have been deleted.',['@nombre_suppression ' => $nombre_suppression ]));
+
+}
+
+function hello_theme($existing, $type, $theme, $path) {
+    return array(
+        'hello' =>array(
+            'template' => 'hello-connexions',
+            'variables' => array('count' => NULL, 'user' => NULL),
+        ),
+    );
 }
 
