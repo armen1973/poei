@@ -30,7 +30,7 @@ hello.connection-statistics:
     _title: 'Connection statistics'
     _controller: '\Drupal\hello\Controller\UserstatisticsController::content'
   requirements:
-    _access_hello: '48'
+    _access_hello: '0'
 
 hello.form:
   path: '/hello-form'
