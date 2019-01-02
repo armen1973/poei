@@ -1,0 +1,14 @@
+uuid: dcc77bfa-fbc7-4475-ad10-7e4779844121
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.role_toto
+  module:
+    - user
+id: user_add_role_action.role_toto
+label: 'Add the Role toto role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: role_toto
