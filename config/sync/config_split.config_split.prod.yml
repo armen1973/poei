@@ -1,0 +1,17 @@
+uuid: ea60e221-b78c-46aa-bb98-831b217c35d6
+langcode: en
+status: false
+dependencies: {  }
+id: prod
+label: PROD
+description: ''
+folder: ../config/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - system.performance
+  - system.site
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
