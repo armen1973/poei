@@ -1,7 +1,11 @@
-uuid: 335826bd-1f37-4ea7-bc6e-0319b9631005
+uuid: 3eb28296-7d29-4ea2-b639-d489742a8e63
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - console_tests
+_core:
+  default_config_hash: xjM1IjntfT81RMTabE423c7Cfrq5w0SkK1_hO3zBf28
 name: ive_wide
 label: 'ive wide'
 effects:
@@ -13,3 +17,8 @@ effects:
       width: 425
       height: null
       upscale: false
+  8d650ea6-7a64-4895-a49b-541e88769637:
+    uuid: 8d650ea6-7a64-4895-a49b-541e88769637
+    id: console_tests_image_effect
+    weight: 2
+    data: {  }

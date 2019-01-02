@@ -1,0 +1,9 @@
+uuid: 954783f2-7e50-4956-9cf8-7b0778513363
+langcode: en
+status: true
+dependencies: {  }
+id: role_toto
+label: 'Role toto'
+weight: 3
+is_admin: null
+permissions: {  }

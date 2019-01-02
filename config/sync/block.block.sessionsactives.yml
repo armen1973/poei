@@ -1,0 +1,18 @@
+uuid: a4d25637-2b97-49c2-a778-2e43a81d7a6e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ive
+id: sessionsactives
+theme: ive
+region: sidebar_second
+weight: 0
+provider: null
+plugin: sessions_block
+settings:
+  id: sessions_block
+  label: 'Sessions actives!'
+  provider: hello
+  label_display: visible
+visibility: {  }

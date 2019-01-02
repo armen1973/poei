@@ -1,4 +1,4 @@
-uuid: 7da28be5-8677-4aa9-8f94-3eabfed4874c
+uuid: 6aca89d6-c180-4129-aec9-7d1ad99be226
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ settings:
   id: 'block_content:6bf8f3a3-a017-4301-a4d9-86ce0184585d'
   label: Bienvenue
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
