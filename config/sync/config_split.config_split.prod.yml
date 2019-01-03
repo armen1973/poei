@@ -10,7 +10,6 @@ module: {  }
 theme: {  }
 blacklist: {  }
 graylist:
-  - paragraphs.settings
   - system.performance
   - system.site
   - 'webform.*'
