@@ -8,9 +8,9 @@ palette:
   titleslogan: '#fffeff'
   text: '#3b3b3b'
   link: '#0071b3'
-logo: 'public://color/ive-d2b30bb6/logo.svg'
+logo: 'public://color/ive-84b42aa6/logo.svg'
 stylesheets:
-  - 'public://color/ive-d2b30bb6/colors.css'
+  - 'public://color/ive-84b42aa6/colors.css'
 files:
-  - 'public://color/ive-d2b30bb6/logo.svg'
-  - 'public://color/ive-d2b30bb6/colors.css'
+  - 'public://color/ive-84b42aa6/logo.svg'
+  - 'public://color/ive-84b42aa6/colors.css'
