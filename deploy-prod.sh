@@ -10,6 +10,9 @@ drush cr
 #Mise à jour de base
 drush updb
 drush cr
+# Mis à jour des schemes des types d'entite
+drush entup
+drush cr
 # Export des configs de prod.
 drush csex prod -y
 # import des configs.
