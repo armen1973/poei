@@ -1,0 +1,35 @@
+uuid: f9136cb3-928a-4234-b4b4-c3662d934510
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.file.thumbnail
+    - file_entity.type.video
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: _Q1l94kLWLkX17ofAFFAQL9emt-VMNP8Sk3_KdgkvdU
+id: file.video.thumbnail
+targetEntityType: file
+bundle: video
+mode: thumbnail
+content:
+  filename:
+    type: string
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  filemime: true
+  filesize: true
+  langcode: true
+  uid: true
+  uri: true
