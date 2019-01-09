@@ -1,0 +1,40 @@
+uuid: 09a62a01-c757-429d-a47a-bf29008d5243
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.annonce.field_images
+  module:
+    - annonce
+    - image
+_core:
+  default_config_hash: MpMD2uVv8tXvVABT-1HfJqJ9Wm9xBrEy6zrvmdTlGYE
+id: annonce.annonce.field_images
+field_name: field_images
+entity_type: annonce
+bundle: annonce
+label: Images
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

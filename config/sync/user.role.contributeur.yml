@@ -1,0 +1,14 @@
+uuid: 9ba5b58c-f413-4d00-99c2-46cc730a4fb5
+langcode: en
+status: true
+dependencies: {  }
+id: contributeur
+label: Contributeur
+weight: 5
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'add annonce entities'
+  - 'delete own annonce entities'
+  - 'edit own annonce entities'
+  - 'view published annonce entities'
