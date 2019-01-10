@@ -1,7 +1,18 @@
 uuid: 5a052055-c62c-44ef-b354-5cd03950237b
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+    - reusable_forms
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  reusable_forms:
+    enabled: 1
+    plugin: email_form
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: Article
